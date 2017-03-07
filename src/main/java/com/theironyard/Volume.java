@@ -33,6 +33,9 @@ public class Volume {
      * @param edge The length of an edge of the cube
      * @return The volume of a cube.
      */
+    public static double cube(double edge){
+        return Math.pow(edge, 3);
+    }
     // todo: create the cube() method as described above
 
 
@@ -56,6 +59,9 @@ public class Volume {
      * @param height The height of the cone
      * @return The volume of the cone
      */
+    public static double cone(double radius, double height){
+        return Math.PI * Math.pow(radius,2)*(height/3);
+    }
     // todo: create the cone() method as described above
 
 
@@ -78,6 +84,9 @@ public class Volume {
      * @param radius
      * @return
      */
+    public static double sphere(double radius){
+        return (4/3d) * Math.PI * Math.pow (radius,3);
+    }
     // todo: create a method to calculate the area of a sphere
 
 
